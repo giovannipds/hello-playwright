@@ -1,7 +1,7 @@
 const { chromium, devices } = require('playwright');
 
 (async () => {
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({ headless: false });
   const context = await browser.newContext({
     ...devices['Pixel 2'],
     permissions: ['geolocation'],
