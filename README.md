@@ -9,3 +9,11 @@ npx playwright codegen wikipedia.org
 ```
 
 It basically records all your activity and help you write the automation for some languages.
+
+## Notes
+
+There's TS support:
+
+```ts
+let page: import('playwright').Page;
+```
