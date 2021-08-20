@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/giovannipds/hello-playwright/issues"
   },
-  "homepage": "https://github.com/giovannipds/hello-playwright#readme"
+  "homepage": "https://github.com/giovannipds/hello-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.14.0"
+  }
 }
