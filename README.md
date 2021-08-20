@@ -19,3 +19,10 @@ You can also set the browser if needed.
 ```sh
 npx playwright test --update-snapshots
 ```
+
+### Available fixtures
+
+- `page`
+- `context`
+- `browser``
+- `browserName`
