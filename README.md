@@ -13,3 +13,9 @@ npx playwright test --headed
 ```
 
 You can also set the browser if needed.
+
+### When need snapshots
+
+```sh
+npx playwright test --update-snapshots
+```
