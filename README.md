@@ -24,5 +24,5 @@ npx playwright test --update-snapshots
 
 - `page`
 - `context`
-- `browser``
+- `browser`
 - `browserName`
